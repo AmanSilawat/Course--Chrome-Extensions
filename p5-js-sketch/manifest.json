@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Sketch Extension",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "library/p5.min.js",
+                "sketch.js"
+            ]
+        }
+    ]
+}
