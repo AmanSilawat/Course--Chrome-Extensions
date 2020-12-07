@@ -4,12 +4,11 @@ function setup() {
   userinput.input(changeText);
 
   function changeText() {
-    console.log('text changed');
-
     let params = {
       active: true,
       currentWindow: true
     };
+    console.log(chrome.tabs)
     chrome.tabs.query(params, gotTabs);
 
     function gotTabs(tabs) {
