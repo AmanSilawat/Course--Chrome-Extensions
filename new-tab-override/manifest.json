@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "New Tab Override Extension",
+    "version": "0.1",
+    "chrome_url_overrides": {
+        "newtab": "./sketch/index.html"
+    },
+    "browser_action": {
+        "default_icon": "imgs/extension.png",
+        "default_title": "Flowers wallpaper"
+    }
+}
